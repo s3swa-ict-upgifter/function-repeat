@@ -6,11 +6,18 @@
 </head>
 <body>
 
+<p id=demo></p>  
+  
 <script>
+var i = 0;
+var text = "";
 function repeat(nume, numbar){
-  while (i !== numbar)
-  document.write(`${nume}`);
-  i++
+  while (i < 10) {
+    text += `<br> ${nume}`;
+    i++;
+}
+document.getElementById("demo").innerHTML = text;
+
 }
 document.write(repeat("I will not disturb in class!", 100));
 </script>
