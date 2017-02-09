@@ -16,6 +16,7 @@ function repeat(nume, numbar){
   while (i !== numbar) {
     text += "<br> " + nume;
     i++;
+    return text;
   }
 }
 document.getElementById("demo").innerHTML = repeat("I will not disturb in class!", 100);
