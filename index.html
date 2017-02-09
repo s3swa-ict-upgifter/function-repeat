@@ -9,12 +9,14 @@
 <p id=demo></p>  
   
 <script>
-var i = 0;
-var text = "";
+
 function repeat(nume, numbar){
+  var i = 0;
+  var text = "";
   while (i !== numbar) {
     text += `<br> ${nume}`;
     i++;
+  }
 }
 document.getElementById("demo").innerHTML = repeat("I will not disturb in class!", 100);
 
