@@ -1,3 +1,1 @@
-function repeat(streng, numbur){
-  
-}
+
